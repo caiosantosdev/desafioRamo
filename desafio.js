@@ -20,31 +20,31 @@ console.log(`média: ${media}`);
 
 
 
-//COISAS USADAS PARA APRENDIZADO
+/*COISAS USADAS PARA APRENDIZADO
 
-//faz a media das idades das pessoas presentes no novoArray.
-// function mediaDasIdades(novoArray){
-//     let somaIdades = 0;
-//     for(let i = 0 ; i < novoArray.length ; i++){
-//         somaIdades+=novoArray[i].idade;
-//     }
-//     let mediaIdades = somaIdades/(novoArray.length);
-//     return mediaIdades.toFixed(2);
-// }
+faz a media das idades das pessoas presentes no novoArray.
+function mediaDasIdades(novoArray){
+    let somaIdades = 0;
+    for(let i = 0 ; i < novoArray.length ; i++){
+        somaIdades+=novoArray[i].idade;
+    }
+    let mediaIdades = somaIdades/(novoArray.length);
+    return mediaIdades.toFixed(2);
+}
 
-//poderia ter usado esse também, mas não sairia do jeito que o desafio pede.
-// newArray.forEach((item, index) => {console.log(item.nome)});
+poderia ter usado esse também, mas não sairia do jeito que o desafio pede.
+newArray.forEach((item, index) => {console.log(item.nome)});
 
 
-//seuNome = seuNome.split(''); 
+seuNome = seuNome.split(''); 
 
-// function filterSameFirstLetter(objetos){
-//     let arrayNomes = [];
-//     for(let i = 0 ; i< objetos.length ; i++){
-//         let auxNome = objetos[i].nome.split('');
-//         if(auxNome[0] == seuNome[0]){
-//             arrayNomes.push(objetos[i]);
-//         }
-//     }
-//     return arrayNomes;
-// }
+function filterSameFirstLetter(objetos){
+    let arrayNomes = [];
+    for(let i = 0 ; i< objetos.length ; i++){
+        let auxNome = objetos[i].nome.split('');
+        if(auxNome[0] == seuNome[0]){
+            arrayNomes.push(objetos[i]);
+        }
+    }
+    return arrayNomes;
+}*/
