@@ -7,10 +7,10 @@ const objetos = [
 
 //atribui à "novoArray" todos os objetos do array "objetos" cuja letra inicial é igual a letra inicial do nome do usuário.
 const novoArray = objetos.filter(mesmaLetra => mesmaLetra.nome[0] == seuNome[0]);
-//cria um novo array contendo só os nomes das pessoas com a mesma letra inicial obtida em "novoArray".
+//cria um novo array "nomes" contendo só os nomes das pessoas com a mesma letra inicial obtida em "novoArray".
 const nomes = novoArray.map(item => item.nome);
 console.log(nomes);
-//faz a soma de todas as idades do array e atribui à variável media.
+//faz a soma de todas as idades do array e atribui à variável "media".
 let media = novoArray.reduce((soma, item) => soma + item.idade , 0);
 media = (media / novoArray.length).toFixed(2);
 console.log(`média: ${media}`);
